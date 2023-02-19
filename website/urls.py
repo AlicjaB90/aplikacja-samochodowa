@@ -12,3 +12,4 @@ urlpatterns = [
     path("", main_view, name="main"),
     path("<int:pk>", car_view, name="car"),
     path(r'api/', include(router.urls)),
+    ]
